@@ -43,11 +43,11 @@ But the scope of this application is much broader and needs to be expanded furth
 5. Spring profiling needs to be done for various DB support in Dev and Prod environments.
 
 #### Project Documentation:
-1. Swagger Documentation - This document will provide a detailed information about the various APIs being provided as various features in       this application.
-Path : EditorApp/editor/api/Editor.yml
-2. Java Docs - EditorApp/editor/doc/
+1. Swagger Documentation - This document will provide a detailed information about the various APIs being provided as various features in  this application.
+Path : editor/api/Editor.yml
+2. Java Docs - /editor/doc/
 3. Test reports - This document briefly describes the nature and amount of test cases written for this project.
-Path : EditorApp/editor/test-output/Default suite/Default test.html
+Path : editor/test-output/Default suite/Default test.html
 
 #### Article Properties :
 An article comprises of below mentioned properties :

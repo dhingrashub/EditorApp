@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6320" started-at="2018-12-18T15:33:42Z" finished-at="2018-12-18T15:33:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6320" started-at="2018-12-18T15:33:42Z" finished-at="2018-12-18T15:33:49Z">
+      <class name="com.upday.editor.controller.EditorControllerTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="15" started-at="2018-12-18T21:03:42Z" finished-at="2018-12-18T21:03:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5539" started-at="2018-12-18T21:03:42Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-12-18T21:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="setup" is-config="true" duration-ms="47" started-at="2018-12-18T21:03:48Z" finished-at="2018-12-18T21:03:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldReturnArticleAfterCreation(com.upday.editor.dto.ArticleDto) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:48Z" finished-at="2018-12-18T21:03:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldReturnArticleAfterCreation(com.upday.editor.dto.ArticleDto) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="shouldReturnArticleAfterCreation(com.upday.editor.dto.ArticleDto)[pri:1, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="shouldReturnArticleAfterCreation" duration-ms="547" started-at="2018-12-18T21:03:48Z" data-provider="articleDto" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ArticleDto(header=Dummy Article, description=dummy data article, text=null, keywords=dummy data, author=dummy, publishDate=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldReturnArticleAfterCreation -->
+        <test-method status="PASS" signature="initMocks()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="initMocks" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:48Z" finished-at="2018-12-18T21:03:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMocks -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="setup" is-config="true" duration-ms="16" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldReturnDetailsByArticleId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldReturnDetailsByArticleId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldReturnArticleAfterCreation(com.upday.editor.dto.ArticleDto) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="shouldReturnDetailsByArticleId()[pri:2, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="shouldReturnDetailsByArticleId" duration-ms="15" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldReturnDetailsByArticleId -->
+        <test-method status="PASS" signature="initMocks()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="initMocks" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMocks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldReturnDetailsByArticleId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldReturnAllArticles() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="setup" is-config="true" duration-ms="16" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldReturnAllArticles() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="initMocks()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="initMocks" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMocks -->
+        <test-method status="PASS" signature="shouldReturnAllArticles()[pri:3, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="shouldReturnAllArticles" duration-ms="31" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldReturnAllArticles -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldReturnAllArticles() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldUpdateArticleByArticleId(com.upday.editor.dto.ArticleDto) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="setup" is-config="true" duration-ms="16" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldUpdateArticleByArticleId(com.upday.editor.dto.ArticleDto) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initMocks()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="initMocks" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMocks -->
+        <test-method status="PASS" signature="shouldUpdateArticleByArticleId(com.upday.editor.dto.ArticleDto)[pri:4, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="shouldUpdateArticleByArticleId" duration-ms="31" started-at="2018-12-18T21:03:49Z" data-provider="articleDto" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ArticleDto(header=Dummy Article, description=dummy data article, text=null, keywords=dummy data, author=UPDATED AUTHOR, publishDate=null)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldUpdateArticleByArticleId -->
+        <test-method status="PASS" signature="shouldDeleteArticleByArticleId()[pri:5, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="shouldDeleteArticleByArticleId" duration-ms="31" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDeleteArticleByArticleId -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initMocks()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="initMocks" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initMocks -->
+        <test-method status="PASS" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="setup" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldDeleteArticleByArticleId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldUpdateArticleByArticleId(com.upday.editor.dto.ArticleDto) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldDeleteArticleByArticleId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.upday.editor.controller.EditorControllerTest.shouldDeleteArticleByArticleId() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.upday.editor.controller.EditorControllerTest@42a48628]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-12-18T21:03:49Z" finished-at="2018-12-18T21:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.upday.editor.controller.EditorControllerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

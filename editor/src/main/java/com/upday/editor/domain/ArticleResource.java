@@ -1,0 +1,34 @@
+package com.upday.editor.domain;
+
+import java.sql.Date;
+import java.time.LocalDateTime;
+
+import com.upday.editor.dto.AuthorDto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+/**
+ * Pojo for returning the response back to the client
+ * @author Shubham Dhingra
+ *
+ */
+@Builder
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class ArticleResource {
+	
+	private String articleUUID;
+	private String header;
+	private String description;
+	private String text;
+	private String keywords;
+	private String author;
+	private Date publishDate;
+	private int eTag;
+
+}

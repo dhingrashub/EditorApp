@@ -37,15 +37,17 @@ Editor application consists of various APIs as different features mentioned belo
 Due to the time constraint, this application only caters the most basic needs of a publishing house.
 But the scope of this application is much broader and needs to be expanded further by implementing below features as future plan :
 1.  Another filter based on period/publishing date needs be added while fetching the articles.
-2. Security aspects needs to be added by allowing rescticted access or scope based access only using JWT tokens. 
-3. As per now, basic required test cases have been implemented, which can be extended to cover entire code base.
+2. Security aspects needs to be added by allowing rescticted access or scope based access only using JWT tokens.
+3. Self links(HATEOAS) needs to be added to increase the API usability.
+4. As per now, basic required test cases have been implemented, which can be extended to cover entire code base.
+5. Spring profiling needs to be done for various DB support in Dev and Prod environments.
 
 #### Project Documentation:
 1. Swagger Documentation - This document will provide a detailed information about the various APIs being provided as various features in       this application.
-Path : editor/editor/api/Editor.yml
-2. Java Docs - editor/editor/doc/
+Path : EditorApp/editor/api/Editor.yml
+2. Java Docs - EditorApp/editor/doc/
 3. Test reports - This document briefly describes the nature and amount of test cases written for this project.
-Path : editor/editor/test-output/Default suite/Default test.html
+Path : EditorApp/editor/test-output/Default suite/Default test.html
 
 #### Article Properties :
 An article comprises of below mentioned properties :

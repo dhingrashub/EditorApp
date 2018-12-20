@@ -38,7 +38,7 @@ public class ArticleSpecification implements Specification<ArticleEntity> {
 		Predicate p = cb.disjunction();
 		List<Predicate> filters = new ArrayList<>();
 		if (articleFilter.getAuthor() != null) {
-			filters.add(cb.like(root.get("author"), "%"+articleFilter.getAuthor()+"%"));
+			filters.add(cb.equal(root.get("author"), articleFilter.getAuthor()));
 		}
 
 		if (articleFilter.getKeywords() != null) {
